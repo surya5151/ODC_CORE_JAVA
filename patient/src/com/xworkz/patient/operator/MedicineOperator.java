@@ -30,5 +30,25 @@ public class MedicineOperator {
 		}
 
 	}
+	 public void delete(int index) {
+		 System.out.println("invoked delete");
+		 if(index<this.continer.length && index>=0) {
+		 this.continer[index]=null;
+		 }else {
+			 System.out.println("invalid index, index is less thean ".concat(String.valueOf(this.continer.length).concat(" and grater then zero")));
+		 } 
+	 }
+	 
+	 public void update(int indexForUpdate, String newMedicineName ) {
+		 System.out.println("Invoked update");
+		 if(indexForUpdate>=0 && indexForUpdate<this.continer.length && newMedicineName!=null) { 
+			
+			this.continer[indexForUpdate]=newMedicineName;
+		 }else {
+			 System.out.println("invalid index, index is less thean ".concat(String.valueOf(this.continer.length).concat(" and grater then zero")));
+		 System.out.println("and new madicine name not be null");
+		 }
+		 
+	 }
 
 }
