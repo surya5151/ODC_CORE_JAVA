@@ -23,14 +23,14 @@ public class SolarDAO {
 	}
 	
 	public void delete(int index) {		
-		System.out.println("Invoked the solar capacity of deleted  index: ".concat(String.valueOf(this.water)));
+		System.out.println("Invoked the solar capacity of deleted  index: ".concat(String.valueOf(index)));
 		
 		if(index>=0 && index<this.conta.length) {
 			this.conta[index]=null;
-			System.out.println("Deleted the solar capacity of the index: ".concat(String.valueOf(this.water)));
+			System.out.println("Deleted the solar capacity of the index: ".concat(String.valueOf(index)));
 					
 		}else {
-			System.err.println("can't deleted the index");
+			System.err.println("can't deleted, index is not good:".concat(String.valueOf(index)));
 		}
 		}
 }

@@ -18,10 +18,11 @@ public class SolarDAOStarter {
 		SolarDTO solarDTO2 = new SolarDTO("Deepa", "Cream", "300ltr", 30000);
 		
 		dao.add(solarDTO2);
+		dao.add(solarDTO2);
 		
-		dao.delete(0);
+		dao.delete(2);
 		
-		dao.delete(10);
+		dao.delete(25);
 	
 
 	}

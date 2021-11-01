@@ -16,16 +16,13 @@ public class CoffeeDAOStarter {
 
 		CoffeeDTO coffeeDTO2 = new CoffeeDTO("kothas", "instant", "filter", 400, 65);
 		dao.add(coffeeDTO2);
-		dao.add(coffeeDTO);
-		dao.add(coffeeDTO2);
-		dao.add(coffeeDTO2);
-		dao.add(coffeeDTO2);
-		dao.add(coffeeDTO2);
 		
-		dao.delete(10);
-		
-		
-		
+
+		dao.delete(15);
+		dao.findByBrand("Levista");
+		dao.findByQuantity(300 );
+		dao.updateQuantityByBrand("kothas", 770);
+
 	}
 
 }
