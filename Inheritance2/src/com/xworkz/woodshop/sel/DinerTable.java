@@ -13,5 +13,4 @@ public class DinerTable extends Furniture {
 		System.out.println(super.shopName);
 
 	}
-
 }

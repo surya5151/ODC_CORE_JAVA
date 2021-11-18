@@ -11,6 +11,5 @@ public class Furniture {
 	public Furniture(){
 		System.out.println("invoked no-org cons form furniture...");
 	}
-	
 
 }

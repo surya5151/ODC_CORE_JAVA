@@ -131,9 +131,6 @@ public void findByNameAndType(String name, String type) {
 				}
 			}
 			}
-		}
-		
-	}
-	
-	
+		}		
+	}		
 }
