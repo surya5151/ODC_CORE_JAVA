@@ -8,7 +8,7 @@ public class BankStarter {
 
 	public static void main(String[] args) {
 
-		Bank bank1 = new IciciBank();
+		Bank bank1 = new IciciBank(); 
 		bank1.Bank("ICICI", "ICI000098");
 		bank1.provideLoan();
 		bank1.openAccount();
