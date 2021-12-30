@@ -12,7 +12,7 @@ public class AdmissionCell {
 			System.out.println("can give mbbs seat");
 		} else {
 			System.out.println("can not give mbbs seat");
-			throw new MBBSSeatException();
+			throw new MBBSSeatException("Name should be min 2char and max 26char and puc cleard and biolage is major");
 		}
 
 	}

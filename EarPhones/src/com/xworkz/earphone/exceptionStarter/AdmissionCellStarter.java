@@ -7,7 +7,7 @@ public class AdmissionCellStarter {
 
 	public static void main(String[] args) throws MBBSSeatException {
 		AdmissionCell admissionCell = new AdmissionCell();
-		admissionCell.admitForMbbs("Surya", true, true );
+		admissionCell.admitForMbbs("S", true, true );
 		
 	}
 
