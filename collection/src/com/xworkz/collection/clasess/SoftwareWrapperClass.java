@@ -62,22 +62,22 @@ public class SoftwareWrapperClass implements Comparable<SoftwareWrapperClass> {
 		int value = this.price.compareTo(obj.price);
 		if (value > 0) {
 
-			return 100;
+			return 100;//swap the element
 		}
 		if (value < 0) {
 
-			return -100;
+			return -100;//not swap the element
 		}
 		if (value == 0) {
 
-			return 0;
+			return 0;// remove the duplicate element
 		}
 
 		return 0;
 	}
 
 	
-	
+	///////////////////////////////////////////////////////////////////
 	
 	
 	public static void main(String[] args) {
@@ -130,12 +130,12 @@ public class SoftwareWrapperClass implements Comparable<SoftwareWrapperClass> {
 //		treeSet.comparator();
 		
 		System.out.println(".......................");
-		//System.out.println(treeSet.first());
-		//System.out.println(treeSet.last());
+//		System.out.println(treeSet.first());
+//		System.out.println(treeSet.last());
 //		System.out.println(treeSet.headSet(softwareWrapperClass1));
 //		System.out.println("...");
-//		System.out.println(treeSet.tailSet(softwareWrapperClass1));
-		System.out.println(treeSet.subSet(softwareWrapperClass3, softwareWrapperClass1));
+		System.out.println(treeSet.tailSet(softwareWrapperClass1));
+//		System.out.println(treeSet.subSet(softwareWrapperClass3, softwareWrapperClass1));
 		
 		
 		

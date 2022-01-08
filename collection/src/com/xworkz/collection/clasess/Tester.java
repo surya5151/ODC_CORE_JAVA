@@ -11,6 +11,7 @@ public class Tester {
 		int age=29;
 		
 		Object[] array=new Object[10];
+		
 		array[0]=name;
 		array[1]=ismaried;
 		array[2]=age;
