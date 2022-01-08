@@ -2,10 +2,11 @@ package com.xworkz.abstraction;
 
 public class IciciBank extends Bank {
 
-	@Override
-	public void Bank(String name, String ifscCode) {
+	@Override	
+	public void Bank(String name, String ifscCode, String Address) {
 		System.out.println("BankName: " + name);
 		System.out.println("BankIfscCode: " + ifscCode);
+		System.out.println("BankAddress:" +Address);
 
 	}
 
@@ -27,4 +28,5 @@ public class IciciBank extends Bank {
 
 	}
 
+	
 }
